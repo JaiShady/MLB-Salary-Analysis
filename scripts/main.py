@@ -16,7 +16,7 @@ import statsmodels.api as sm
 from sklearn.tree import DecisionTreeRegressor, plot_tree
 
 
-filePath = 'C:/Users/jaina/Downloads/'
+filePath = 'data/'
 filename = 'Baseball_salary.csv'
 data1 = read_csv(filePath+filename)
 
